@@ -1,0 +1,138 @@
+.icon{
+    width: 120px;
+    height: 120px;
+    alt:"顔画像です。";
+    border-radius:50%;
+    border-width:4px;
+    border-style: dotted;
+    border-color:white;
+    margin:3px;  
+}
+body{
+background-color:antiquewhite;
+color:#333;
+font-family:Verdana;
+}
+header{
+background-image: url(sinkai.jpg);
+background-size: cover;
+height: 150px;
+z-index: 10;
+
+}
+.headertitle{
+    text-align:center;
+    font-size:40px;
+    color:white;
+    margin-top:10px;
+    padding-top:10px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+.imglist{
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+    height:60px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    padding-left: 100px;
+}
+.imglist li{
+    list-style: none; 
+    display:inline-block; 
+    padding:0px 0px;
+    margin:0px 0px;  
+}
+.imglist img{
+    height:60px;
+    width: 60px;      
+}
+.myname{
+background-color:pink;
+width: 400px;
+margin-top: 5px;
+margin-right: 5px;
+display:flex;
+z-index: 5;
+}
+.info{
+    margin-left:20px;
+}
+.info h1{
+padding:0px;
+margin-top:15px;
+margin-left:3px;
+margin-right:3px;
+margin-bottom:0px;
+font-weight:normal;
+font-size:24px;
+}
+.info p{
+padding:0px;
+margin-top:0px;
+margin-bottom:20px;
+margin-left:3px;
+margin-right:3px;
+}
+.info ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    display:flex;
+}
+
+#img1{
+    width:20px;
+    height:20px;
+    margin:3px;
+    margin-left:8px;
+}
+#img2{
+    width:20px;
+    height:20px;
+    margin:3px;
+    margin-left:8px;
+}
+.input{
+    margin-left:10px;
+
+}
+#icons{
+    width:700px;
+    height:350px;
+}
+.btn{
+    margin:20px;
+    background-color:aqua;
+    border-radius: 5px;
+    padding:5px;
+}
+
+footer{
+    text-align: center;   
+}
+.btn:hover{
+    background-color: aquamarine;
+}
+.maintitle{
+    height: 50px;
+    text-align:center;
+    background-color:rgb(194, 183, 168);
+    margin:0;
+    margin-top: 10px;
+    border: 1px solid #333;
+    
+}
+.charalist{
+    background-color:rgb(194, 183, 168);
+    margin:0;
+    margin-bottom:30;
+    border: 1px dotted #333;
+    height: 500px;
+    padding-top:50px;
+    letter-spacing: 5px;
+}
+.charalist li{
+    margin-top:5px
+}
