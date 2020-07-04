@@ -1,7 +1,7 @@
 var b = document.getElementById("iii");
 b.addEventListener(`click`,()=>{
 
-alert("歓喜");
+alert("やーい！お前の母ちゃん出べそ！");
 
 })
 
